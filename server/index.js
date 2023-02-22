@@ -5,7 +5,7 @@ const path = require("path");
 const { Configuration, OpenAIApi } = require("openai");
 
 const configuration = new Configuration({
-  apiKey: "your own key",
+  apiKey: "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",
 });
 
 const openai = new OpenAIApi(configuration);
